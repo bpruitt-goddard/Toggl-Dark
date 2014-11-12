@@ -88,16 +88,21 @@ body {
 }
 
 /* Tag Dropdown */
-.popdown-tags, .popdown-btm {
+.popdown .popdown-btm {
   background: #555 !important;
 }
 
-.popdown-tags a:hover {
+.popdown-container input, .popdown-list {
   background: #333 !important;
 }
 
-.popdown-tags a, .popdown-input {
+.popdown-list a, .popdown-input, .popdown-container .popdown-subheader{
   color: white !important;
+}
+
+.popdown .popdown-list ul li>a:hover,.popdown .popdown-list ul li>a>label:hover,.popdown .popdown-list ul li>label:hover
+{
+  background: #555 !important;
 }
 
 /* Bottom Div */
